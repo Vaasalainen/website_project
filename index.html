@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="light-theme">
+    <h1>Lucie's art house</h1>
+    <nav>
+        <a href="/">Index</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <p class="title_color">About: </p>
+    <ul>
+        <li class="list">Hi, I'm Lucie, the great artist!</li>
+        <li class="list">I can paint anything you want using watercolors, e.g.:</li>
+        <ol>
+            <li>Mushrooms</li>
+            <li id="bottles_color">Bottles</li>
+            <li>Rainy day</li>
+        </ol>
+    </ul>
+
+    <div id="container">
+        <div class="blue">1</div>
+        <div class="red">2</div>
+        <div class="red">3</div>
+        <div class="blue">4</div>
+
+        <div class="blue">5</div>
+        <div class="red">6</div>
+        <div class="red">7</div>
+        <div class="blue">8</div>
+
+        <div class="blue">9</div>
+        <div class="red">10</div>
+        <div class="red">11</div>
+        <div class="blue">12</div>
+
+        <div class="blue">13</div>
+        <div class="red">14</div>
+        <div class="red">15</div>
+        <div class="blue">16</div>
+        <div class="blue">9</div>
+        <div class="red">10</div>
+        <div class="red">11</div>
+        <div class="blue">12</div>
+
+        <div class="blue">13</div>
+        <div class="red">14</div>
+        <div class="red">15</div>
+        <div class="blue">16</div>
+        <div class="blue">9</div>
+        <div class="red">10</div>
+        <div class="red">11</div>
+        <div class="blue">12</div>
+
+        <div class="blue">13</div>
+        <div class="red">14</div>
+        <div class="red">15</div>
+        <div class="blue">16</div>
+        <div class="blue">9</div>
+        <div class="red">10</div>
+        <div class="red">11</div>
+        <div class="blue">12</div>
+
+        <div class="blue">13</div>
+        <div class="red">14</div>
+        <div class="red">15</div>
+        <div class="blue">16</div>
+    </div>
+    
+    <p class="title_color">Here is some things I can paint:</p>
+    <table>
+        <tr>
+            <td>Painting</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>Mushrooms</td>
+            <td>Can be done with watercolors on A4 paper</td>
+        </tr>
+        <tr>
+            <td>Houses</td>
+            <td>I can paint amsterdam houses with water colors</td>
+        </tr>
+    </table>
+    <p>Here is a small example of what I can do!</p>
+    <img src="../../art/amsterdam_houses.pdf" alt="Amsterdam houses">
+    <br/>
+    <img src="../../art/helsinki_houses.pdf" alt="Helsinki houses" height="430px">
+    
+    <form method="POST" action="/names">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" />
+        <input type="submit" value="Submit form" />
+    </form>
+
+    <form method="POST" action="/raffle">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" />
+        <br/>
+        <label for="raffle">I participate in the raffle:</label>
+        <input type="checkbox" id="raffle" name="raffle" />
+        <br/>
+        <input type="submit" value="Submit form" />
+      </form>
+    <a href="https://aalto.fi">Aalto university</a>
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

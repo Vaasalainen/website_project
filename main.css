@@ -1,0 +1,33 @@
+
+/* define styles */
+body {
+   /* background: var(--bg);*/
+    color: black;
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+h1 {
+    color:blueviolet;
+}
+#bottles_color {
+    color:rebeccapurple;
+}
+.title_color{
+    color:cornflowerblue
+}
+
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.red{
+    padding: 0.5rem;
+    background-color: red;
+}
+.blue{
+    padding: 1rem;
+    background-color: lightblue;
+}
